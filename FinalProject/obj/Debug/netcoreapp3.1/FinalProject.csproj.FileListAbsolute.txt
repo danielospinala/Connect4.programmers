@@ -26,3 +26,17 @@ C:\Users\Daniel\source\repos\OOP-Final-Project\FinalProject\obj\Debug\netcoreapp
 C:\Users\Daniel\source\repos\OOP-Final-Project\FinalProject\obj\Debug\netcoreapp3.1\FinalProject.dll
 C:\Users\Daniel\source\repos\OOP-Final-Project\FinalProject\obj\Debug\netcoreapp3.1\FinalProject.pdb
 C:\Users\Daniel\source\repos\OOP-Final-Project\FinalProject\obj\Debug\netcoreapp3.1\FinalProject.genruntimeconfig.cache
+D:\uni\Project\Connect4.programmers\FinalProject\bin\Debug\netcoreapp3.1\FinalProject.exe
+D:\uni\Project\Connect4.programmers\FinalProject\bin\Debug\netcoreapp3.1\FinalProject.deps.json
+D:\uni\Project\Connect4.programmers\FinalProject\bin\Debug\netcoreapp3.1\FinalProject.runtimeconfig.json
+D:\uni\Project\Connect4.programmers\FinalProject\bin\Debug\netcoreapp3.1\FinalProject.runtimeconfig.dev.json
+D:\uni\Project\Connect4.programmers\FinalProject\bin\Debug\netcoreapp3.1\FinalProject.dll
+D:\uni\Project\Connect4.programmers\FinalProject\bin\Debug\netcoreapp3.1\FinalProject.pdb
+D:\uni\Project\Connect4.programmers\FinalProject\obj\Debug\netcoreapp3.1\FinalProject.csproj.AssemblyReference.cache
+D:\uni\Project\Connect4.programmers\FinalProject\obj\Debug\netcoreapp3.1\FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\uni\Project\Connect4.programmers\FinalProject\obj\Debug\netcoreapp3.1\FinalProject.AssemblyInfoInputs.cache
+D:\uni\Project\Connect4.programmers\FinalProject\obj\Debug\netcoreapp3.1\FinalProject.AssemblyInfo.cs
+D:\uni\Project\Connect4.programmers\FinalProject\obj\Debug\netcoreapp3.1\FinalProject.csproj.CoreCompileInputs.cache
+D:\uni\Project\Connect4.programmers\FinalProject\obj\Debug\netcoreapp3.1\FinalProject.dll
+D:\uni\Project\Connect4.programmers\FinalProject\obj\Debug\netcoreapp3.1\FinalProject.pdb
+D:\uni\Project\Connect4.programmers\FinalProject\obj\Debug\netcoreapp3.1\FinalProject.genruntimeconfig.cache

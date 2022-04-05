@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel\\source\\repos\\OOP-Final-Project\\FinalProject\\FinalProject.csproj": {}
+    "D:\\uni\\Project\\Connect4.programmers\\FinalProject\\FinalProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel\\source\\repos\\OOP-Final-Project\\FinalProject\\FinalProject.csproj": {
+    "D:\\uni\\Project\\Connect4.programmers\\FinalProject\\FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\OOP-Final-Project\\FinalProject\\FinalProject.csproj",
+        "projectUniqueName": "D:\\uni\\Project\\Connect4.programmers\\FinalProject\\FinalProject.csproj",
         "projectName": "FinalProject",
-        "projectPath": "C:\\Users\\Daniel\\source\\repos\\OOP-Final-Project\\FinalProject\\FinalProject.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel\\source\\repos\\OOP-Final-Project\\FinalProject\\obj\\",
+        "projectPath": "D:\\uni\\Project\\Connect4.programmers\\FinalProject\\FinalProject.csproj",
+        "packagesPath": "C:\\Users\\Mahya\\.nuget\\packages\\",
+        "outputPath": "D:\\uni\\Project\\Connect4.programmers\\FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mahya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
