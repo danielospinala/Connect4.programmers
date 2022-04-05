@@ -4,35 +4,16 @@ using System.Text;
 
 namespace FinalProject
 {
-    class Control : BoardConnect4
+     class Control : BoardConnect4
     {
-        public bool myTurn { get; set; } = true;
-       
-        public void SetPlayerName(Player name, string PlayerName)
+              
+        public void SetPlayerInfo(Player objPlayer,int ID, string Name ,string DisplayName, char PlayerSimbol)
         {
-            name.PlayerName = PlayerName;
-
+            objPlayer.ID = ID;
+            objPlayer.DisplayName = DisplayName;
+            objPlayer.Name = Name;
+            objPlayer.Symbol = PlayerSimbol;
         }
-        public void SetSimbol(Player name, char simbol)
-        {
-            name.Simbol = simbol;
-        }
-
-        public bool changeTurn()
-        {
-            return !myTurn;
-        }
-
-        public void whoIsThePlayer() { 
-            if(myTurn == true)
-            {
-                Console.WriteLine("Player 1");
-            } else
-            {
-                Console.WriteLine("Player 2");
-            }
-        }
-
        
     }
 }

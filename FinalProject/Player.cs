@@ -6,13 +6,16 @@ namespace FinalProject
 {
     class Player
     {
-        public string PlayerName { get; set; }
-        public char Simbol { get; set; }
-       
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public string DisplayName { get; set; }
+        public char Symbol { get; set; }
+        public int ActCount { get; set; }
 
-        public void DisplayPlayer(string NumPlayer)
+
+        public void DisplayPlayer()
         {
-            Console.WriteLine($"{NumPlayer}: {PlayerName}");
+            Console.WriteLine($"{DisplayName}: {Name}, Symbol: {Symbol}");
         }
 
 
