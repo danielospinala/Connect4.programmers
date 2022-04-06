@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\uni\\Project\\Connect4.programmers\\FinalProject\\FinalProject.csproj": {}
+    "C:\\Users\\Daniel\\Documents\\BowValley\\semester 2\\OOP\\oopproject\\FinalProject\\FinalProject.csproj": {}
   },
   "projects": {
-    "D:\\uni\\Project\\Connect4.programmers\\FinalProject\\FinalProject.csproj": {
+    "C:\\Users\\Daniel\\Documents\\BowValley\\semester 2\\OOP\\oopproject\\FinalProject\\FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\uni\\Project\\Connect4.programmers\\FinalProject\\FinalProject.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\BowValley\\semester 2\\OOP\\oopproject\\FinalProject\\FinalProject.csproj",
         "projectName": "FinalProject",
-        "projectPath": "D:\\uni\\Project\\Connect4.programmers\\FinalProject\\FinalProject.csproj",
-        "packagesPath": "C:\\Users\\Mahya\\.nuget\\packages\\",
-        "outputPath": "D:\\uni\\Project\\Connect4.programmers\\FinalProject\\obj\\",
+        "projectPath": "C:\\Users\\Daniel\\Documents\\BowValley\\semester 2\\OOP\\oopproject\\FinalProject\\FinalProject.csproj",
+        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel\\Documents\\BowValley\\semester 2\\OOP\\oopproject\\FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mahya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -12,7 +12,7 @@ namespace FinalProject
                 Console.WriteLine("Do you want to play a new Game? 1 = Yes, 0 = No");
                 Console.Write("Your answer: ");
                 int newGame = Int32.Parse(Console.ReadLine());
-
+                Console.WriteLine("Test");
                 if (newGame == 0)
                 {
                     break;
