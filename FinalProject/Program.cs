@@ -21,6 +21,7 @@ namespace FinalProject
                 Control newBoard = new Control();
                 Player one = new Player();
                 Player two = new Player();
+                
 
                 // Set Player 1 Info
                 Console.Write("Player 1 name: ");
@@ -46,7 +47,7 @@ namespace FinalProject
                 newBoard.PlayerList.Add(two);
 
                 newBoard.autoPopulateBoard();
-                string ans;
+                //string ans;
 
                 do
                 {

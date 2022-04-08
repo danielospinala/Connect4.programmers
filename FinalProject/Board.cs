@@ -156,31 +156,158 @@ namespace FinalProject
 
         public bool CheckWinnerDiagonlly(char symbol)
         {
-            int count = 0;
 
-            //for (int row = 0; row < 6; row++)
-            //{
-            //    count = 0;
-            //    for (int col = 6; col >= 0; col--)
-            //    {
-            //        if (Board[row, col] == symbol)
-            //        {
-            //            count++;
-            //            if (count >= 4)
-            //            {
-            //                return true;
-            //            }
-            //            else
-            //            {
-            //                continue;
-            //            }
-            //        }
-            //        else
-            //        {
-            //            count = 0;
-            //        }
-            //    }
-            //}
+            int count = 0;
+            int temp;
+            //1
+            for (int col = 6; col >= 2; col--)
+            {
+                temp = col;
+                count = 0;
+                for (int row = 5; row >= 0; row--)
+                {
+                    if (Board[row, temp] == symbol)
+                    {
+                        count++;
+                        if (count >= 4)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            temp--;
+                            if (temp < 0)
+                            {
+                                break;
+                            }
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        count = 0;
+                    }
+                    temp--;
+                    if (temp < 0)
+                    {
+                        break;
+                    }
+                }
+
+            }
+            ////2
+            //count = 0;
+            for (int col = 6; col >= 0; col--)
+            {
+                temp = 6;
+                count = 0;
+                for (int row = 5; row >= 0; row--)
+                {
+                    if (Board[row, temp] == symbol)
+                    {
+                        count++;
+                        if (count >= 4)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            temp--;
+                            if (temp < 0)
+                            {
+                                break;
+                            }
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        count = 0;
+                    }
+                    temp--;
+                    if (temp < 0)
+                    {
+                        break;
+                    }
+                }
+
+            }
+
+            ////3
+
+
+            for (int col = 0; col <= 6; col++)
+            {
+                temp = col;
+                count = 0;
+                for (int row = 5; row >= 0; row--)
+                {
+                    if (Board[row, temp] == symbol)
+                    {
+                        count++;
+                        if (count >= 4)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            temp++;
+                            if (temp > 6)
+                            {
+                                break;
+                            }
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        count = 0;
+                    }
+
+                    temp++;
+                    if (temp > 6)
+                    {
+                        break;
+                    }
+                }
+            }
+            ////4
+            for (int row = 5; row <= 0; row--)
+            {
+                temp = row;
+                count = 0;
+                for (int col = 0; col > 6; col++)
+                {
+                    if (Board[temp, col] == symbol)
+                    {
+                        count++;
+                        if (count >= 4)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            temp--;
+                            if (temp < 0)
+                            {
+                                break;
+                            }
+                            continue;
+                        }
+                    }
+                    else
+                    {
+                        count = 0;
+                    }
+                    temp--;
+                    if (temp < 0)
+                    {
+                        break;
+                    }
+                }
+            }
+
+
 
             return false;
         }
