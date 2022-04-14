@@ -70,7 +70,12 @@ namespace FinalProject
                 currentPlayer = PlayerList[0];
         }
 
+        public bool CheckIfPlayerListEmpty(List<Player> MyList)
+        {
+           
 
+            return MyList.Count > 0 ? false : true;
+        }
         public bool CheckWinner(char symbol)
         {
             bool result = false;

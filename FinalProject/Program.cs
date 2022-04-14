@@ -17,6 +17,10 @@ namespace FinalProject
                 {
                     break;
                 }
+                else
+                {
+
+                }
 
                 Control newBoard = new Control();
                 Player one = new Player();
