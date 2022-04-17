@@ -14,42 +14,43 @@ namespace FinalProject
                 Console.WriteLine("Do you want to play a new Game? 1 = Yes, 0 = No");
                 Console.Write("Your answer: ");
                 int newGame = Int32.Parse(Console.ReadLine());
-                
+
                 if (newGame == 0)
                 {
                     break;
                 }
 
-                
+
                 Control newBoard = new Control();
-               
-                    // Set Player 1 Info
-                    Console.Write("Player 1 name: ");
-                    string name1 = Console.ReadLine();
-                    newBoard.SetPlayerInfo(one, 0, name1, "Player 1", 'O');
 
-                    //Set player1 for first player (Current Player)
-                    newBoard.currentPlayer = one;
+                // Set Player 1 Info
+                Console.Write("Player 1 name: ");
+                string name1 = Console.ReadLine();
+                newBoard.SetPlayerInfo(one, 0, name1, "Player 1", 'O');
 
-                    Console.WriteLine("do you want to play again the Computer or a Person? 0= Person, 1 = Computer ");
-                    Console.Write("Your answer: ");
-                    int Player2 = Int32.Parse(Console.ReadLine());
-                    if (Player2 == 0)
-                    {
-                        //SetPlayer 2 Info
-                        Console.Write("Player 2 name: ");
-                        string name2 = Console.ReadLine();
-                        newBoard.SetPlayerInfo(two, 1, name2, "Player 2", 'X');
-                    }
+                //Set player1 for first player (Current Player)
+                newBoard.currentPlayer = one;
 
-                    // Add player inplayer list
-                    newBoard.PlayerList.Add(one);
-                    newBoard.PlayerList.Add(two);
+                // Console.WriteLine("do you want to play again the Computer or a Person? 0= Person, 1 = Computer ");
+                // Console.Write("Your answer: ");
+                //int Player2 = Int32.Parse(Console.ReadLine());
+                int Player2 = 0;
+                if (Player2 == 0)
+                {
+                    //SetPlayer 2 Info
+                    Console.Write("Player 2 name: ");
+                    string name2 = Console.ReadLine();
+                    newBoard.SetPlayerInfo(two, 1, name2, "Player 2", 'X');
+                }
 
-                    newBoard.autoPopulateBoard();
-                    //string ans;
-                
-                
+                // Add player inplayer list
+                newBoard.PlayerList.Add(one);
+                newBoard.PlayerList.Add(two);
+
+                newBoard.autoPopulateBoard();
+                //string ans;
+
+
                 do
                 {
                     // Display game message
@@ -103,7 +104,7 @@ namespace FinalProject
                             break;
                         }
                     }
-                   
+
                     // Change Turn
                     newBoard.ChangeTurn(newBoard.currentPlayer.ID);
 
@@ -117,7 +118,7 @@ namespace FinalProject
 
                     // Clear Display
                     Console.Clear();
-                    
+
 
                 } while (true);
 

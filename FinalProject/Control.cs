@@ -7,12 +7,12 @@ namespace FinalProject
      class Control : BoardConnect4
     {
               
-        public void SetPlayerInfo(Player objPlayer,int ID, string Name ,string DisplayName, char PlayerSimbol)
+        public void SetPlayerInfo(Player objPlayer,int ID, string Name ,string DisplayName, char PlayerSymbol)
         {
             objPlayer.ID = ID;
             objPlayer.DisplayName = DisplayName;
             objPlayer.Name = Name;
-            objPlayer.Symbol = PlayerSimbol;
+            objPlayer.Symbol = PlayerSymbol;
         }
        
     }

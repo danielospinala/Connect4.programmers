@@ -4,7 +4,24 @@ using System.Text;
 
 namespace FinalProject
 {
-    class BoardConnect4
+    interface IWinner {
+        bool CheckWinner(char symbol);
+        bool CheckWinnerHorizentally(char symbol);
+        bool CheckWinnerVertically(char symbol);
+        bool CheckWinnerDiagonlly(char symbol);
+   }
+    interface IBoard
+    {
+        void autoPopulateBoard();
+        void displayBoard();
+        bool FilloutBoard(int col, char simbol);
+    }
+    interface IControlTurn
+    {
+        void ChangeTurn(int PlayerID);
+
+    }
+    class BoardConnect4: IWinner,IBoard, IControlTurn
     {
         public List<Player> PlayerList = new List<Player>();
         public Player currentPlayer;
