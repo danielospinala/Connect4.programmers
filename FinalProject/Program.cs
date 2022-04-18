@@ -11,11 +11,35 @@ namespace FinalProject
             {
                 Player one = new Player();
                 Player two = new Player();
-                Console.WriteLine("Do you want to play a new Game? 1 = Yes, 0 = No");
-                Console.Write("Your answer: ");
-                int newGame = Int32.Parse(Console.ReadLine());
+                int option;
+                bool contin;
+                do
+                {
+                    Console.WriteLine("Do you want to play a new Game? 1 = Yes, 0 = No");
+                    Console.Write("Your answer: ");
 
-                if (newGame == 0)
+                    var input = Console.ReadLine();
+
+                    if (Int32.TryParse(input, out int number))
+                    {
+                        option = int.Parse(input);
+                        if (option == 1)
+                        {
+                            contin = false;
+                            break;
+                        }
+                        else if (option == 0)
+                        {
+                            contin = true;
+                            break;
+
+                        }
+                    }
+
+
+                } while (true);
+
+                if (contin)
                 {
                     break;
                 }
